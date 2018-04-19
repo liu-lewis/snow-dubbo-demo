@@ -1,4 +1,4 @@
-package com.snow.consumer;
+package com.snow.consumer.controller;
 
 import com.snow.provider.service.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class ConsumerMain {
 
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/applicationConsumer.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/applicationSpring.xml");
         context.start();
         DemoService demoService = (DemoService)context.getBean("demoService");
         String result = demoService.sayHello("国际惯例");
