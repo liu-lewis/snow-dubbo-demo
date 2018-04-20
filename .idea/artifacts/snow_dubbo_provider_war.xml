@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="snow-dubbo-provider:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/snow_dubbo_provider_war</output-path>
+    <root id="archive" name="snow-dubbo-provider_war.war">
+      <element id="artifact" artifact-name="snow-dubbo-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

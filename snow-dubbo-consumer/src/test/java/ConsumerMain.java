@@ -1,5 +1,3 @@
-package com.snow.consumer.controller;
-
 import com.snow.provider.service.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

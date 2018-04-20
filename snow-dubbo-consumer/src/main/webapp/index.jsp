@@ -8,6 +8,6 @@
 </head>
 <body>
 Service consumer start success!
-<a href="192.168.81.130:8081/dubbo-admin">dubbo admin</a>
+<a href="192.168.1.242:8081/dubbo-admin">dubbo admin</a>
 </body>
 </html>

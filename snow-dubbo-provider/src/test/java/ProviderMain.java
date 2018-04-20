@@ -1,5 +1,3 @@
-package com.snow.provider;
-
 import java.io.IOException;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;

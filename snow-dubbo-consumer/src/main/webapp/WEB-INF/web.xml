@@ -11,7 +11,7 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
-            classpath*:spring/*.xml
+            classpath*:spring/applicationSpring.xml
         </param-value>
     </context-param>
 
@@ -19,7 +19,7 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
-    <filter>
+    <!--<filter>
         <filter-name>characterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
         <init-param>
@@ -35,13 +35,13 @@
         <filter-name>characterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-
+-->
     <servlet>
         <servlet-name>initServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath*:spring/*.xml</param-value>
+            <param-value>classpath*:spring/applicationSpring.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

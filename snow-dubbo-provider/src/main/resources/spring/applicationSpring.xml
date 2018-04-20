@@ -19,7 +19,7 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
     <!--  static resources -->
-    <mvc:resources mapping="/static/**" location="/static"/>
+    <!--<mvc:resources mapping="/static/**" location="/static"/>-->
 
     <import resource="classpath:dubbo/dubbo-provider.xml" />
 </beans>

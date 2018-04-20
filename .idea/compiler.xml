@@ -28,10 +28,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="snow-dubbo-api" target="1.5" />
-      <module name="snow-dubbo-consumer" target="1.5" />
-      <module name="snow-dubbo-provider" target="1.5" />
-      <module name="snow_dubbo_demo" target="1.5" />
+      <module name="snow-dubbo-api" target="1.8" />
+      <module name="snow-dubbo-consumer" target="1.8" />
+      <module name="snow-dubbo-provider" target="1.8" />
+      <module name="snow_dubbo_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
